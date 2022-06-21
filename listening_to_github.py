@@ -12,6 +12,10 @@ def api_route():
 def api_gh_mesage():
     if request.headers['Content-Type']=="application/json":
         my_info = json.dumps(request.json)
+<<<<<<< HEAD
+=======
+        print (my_info)
+>>>>>>> 55ea04dc06aae06b94b2ec9a161402f1610a158d
         return my_info
 
 #similar to django export

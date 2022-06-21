@@ -2,6 +2,5 @@
 
 ## Tech Stack:
    * Flask (django can be used for production environments and better status)
-   * ngrok (Secure tunnels to localhost)
-   * Frontend (currently: none)
+   * ngrok (Secure tunnels to localhost) and perform port forwarding
    * 
